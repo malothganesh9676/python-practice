@@ -1,0 +1,29 @@
+amount = int(input())
+
+no_of_1000s = amount // 1000 
+remaining = amount % 1000 
+
+no_of_500s = remaining // 500 
+remaining = remaining % 500 
+
+no_of_100s = remaining // 100 
+remaining = remaining % 100 
+
+no_of_50s = remaining // 50 
+remaining = remaining % 50 
+
+no_of_20s = remaining // 20 
+remaining = remaining % 20 
+
+no_of_5s = remaining // 5 
+remaining = remaining % 5 
+
+no_of_1s = remaining
+
+print("1000:" + str(no_of_1000s))
+print("500:" + str(no_of_500s))
+print("100:" + str(no_of_100s))
+print("50:" + str(no_of_50s))
+print("20:" + str(no_of_20s))
+print("5:" + str(no_of_5s))
+print("1:" + str(no_of_1s))
