@@ -1,9 +1,0 @@
-N = int(input())
-
-count = 1 
-while count <= N:
-    if count < N:
-        print("* " * count)
-    elif count == N:
-        print("+ " * count)
-    count = count + 1 
